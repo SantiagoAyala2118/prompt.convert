@@ -26,7 +26,7 @@ function convertCurrency(pesos) {
   
         // Simple condicional que ayuda a verificar si el numero ingresado es correcto 
         if (isNaN(montoPesos) || montoPesos <= 0) {
-          alert("Ingresá un monto válido.");
+          alert("Ingrese un monto válido.");
           break;
         }
   
@@ -44,11 +44,11 @@ function convertCurrency(pesos) {
         break;
   
       case "2":
-        alert("¡Gracias por usar el conversor!"); //Caso 2, se cierra el bucle
+        alert("Gracias, hasta luego"); //Caso 2, se cierra el bucle
         break;
   
       default:
-        alert("Opción inválida. Elegí 1 o 2."); //Caso 3, en caso de meter un numero iválido
+        alert("Opción inválida. Debe elegir 1 o 2."); //Caso 3, en caso de meter un numero iválido
     }
   
   } while (opcion !== "2");
